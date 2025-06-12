@@ -7,12 +7,12 @@
 
 ## Techniques to mesaure the Time efficiency
 
-Techniques
+##### Techniques
 -> Measure the time to execute.
 -> Counting Operations Involved.
 -> Abstract notion of order of growth.
 
-1.Measuring Time
+#### 1.Measuring Time
 
 Example:
 
@@ -26,7 +26,7 @@ for i  in range(1,101):
 print(time.time()-start)
 
 
-Problems with this apporoch
+#### Problems with this apporoch
 -> Different time for different algorithm = Good
 -> Time varies if implimentation chnages = Not Good 
 -> Different machines different time = NOt Good 
